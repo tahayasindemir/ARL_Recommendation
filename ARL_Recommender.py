@@ -4,7 +4,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 500)
 pd.set_option('display.expand_frame_repr', False)
 
-df_ = pd.read_excel(r"C:\Users\taha\Desktop\DSMLBC6\Ders Notları\HAFTA_03\online_retail_II.xlsx",
+df_ = pd.read_excel(r"path\online_retail_II.xlsx",
                     sheet_name="Year 2010-2011")
 df = df_.copy()
 
